@@ -21,8 +21,6 @@ def find_the_cheese (array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.find {
     |cheese|
-    if cheese == "cheadar" || cheese == "gouda" || cheese == "camembert"
-      return 
-    else return nil 
+    cheese == "cheadar" || cheese == "gouda" || cheese == "camembert"
   }
 end
