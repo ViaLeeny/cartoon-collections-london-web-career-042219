@@ -13,7 +13,10 @@ end
 def long_planeteer_calls(array)
   array.any? { 
   |string |
-    string.length? > 4
+  if  string.length? > 4
+     return true 
+  else 
+      return false 
   }
 end
 
