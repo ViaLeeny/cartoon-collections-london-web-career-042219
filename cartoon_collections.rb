@@ -5,12 +5,9 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet (array)
-  array.split (",")
-  new_array = []
   array.map do |word|
-  new_array << "#{word.upcase}!"
+  word.upcase +"!"
   end
-  return new_array.join (", ")
 end
 
 def long_planeteer_calls()
