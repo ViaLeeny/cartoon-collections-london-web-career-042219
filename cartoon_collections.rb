@@ -10,7 +10,7 @@ def summon_captain_planet (array)
   array.map do |word|
   new_array << "#{word.upcase}!"
   end
-  return new_array
+  return new_array.join (", ")
 end
 
 def long_planeteer_calls()
