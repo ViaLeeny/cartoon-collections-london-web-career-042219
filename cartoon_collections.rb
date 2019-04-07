@@ -17,16 +17,12 @@ def long_planeteer_calls(array)
   }
 end
 
-#def find_the_cheese (array)
- # cheese_types = ["cheddar", "gouda", "camembert"]
-  #cheese == "cheadar" || cheese == "gouda" || cheese == "camembert"
+def find_the_cheese (array)
+  cheese_types = ["cheddar", "gouda", "camembert"]
+  cheese == "cheadar" || cheese == "gouda" || cheese == "camembert"
   
-  #if array
-  def find_the_cheese(array)
-  array.find do |cheese| 
-    cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
-    end 
-  end 
+  if
+  
   
   
 end
